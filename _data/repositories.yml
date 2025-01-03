@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - yanqswhu
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - yanqswhu/DispMVS_release
+  - yanqswhu/CF-NeRF_release
+  - yanqswhu/cuda_by_example
+  - yanqswhu/ellipse_detection
