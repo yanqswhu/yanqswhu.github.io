@@ -13,9 +13,19 @@
       institution: 武汉大学 (Wuhan University)
       year: 201909-202412
       description:
-        - Major in Photogrammetry and Remote Sensing.
+        - 摄影测量与遥感 (Photogrammetry and Remote Sensing).
+    - title: Master
+      institution: 武汉大学 (Wuhan University)
+      year: 201609-201907
+      description:
+        - 摄影测量与遥感 (Photogrammetry and Remote Sensing).
+    - title: Bachelor
+      institution: 武汉大学 (Wuhan University)
+      year: 201209-201607
+      description:
+        - 测绘工程 (Geomatics Engineering).
 
-- title: Interests
+- title: 兴趣 (Interests)
   type: nested_list
   contents:
     - title: 3D Reconstruction.
