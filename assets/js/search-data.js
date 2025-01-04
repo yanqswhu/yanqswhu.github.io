@@ -69,13 +69,6 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/qingsong-yan-a20630151", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
