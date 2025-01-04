@@ -2,24 +2,21 @@
 layout: about
 title: about
 permalink: /
-subtitle: /
+subtitle: 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Wuhan, China</p>
-    <p>Shenzhen, China</p>
-
+    <p>武汉, 深圳</p>
+    <p>Wuhan, Shenzhen</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+颜青松毕业于武汉大学测绘学院。他分别于 2016 年, 2019 年, 2024年获得武汉大学学士学位，硕士学位，和博士学位。他的主要研究方向包括全景视觉、三维重建、多视图立体匹配,神经辐射场,3DGS等。
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Qingsong Yan graduated from the School of Geodesy and Geomatics at Wuhan University. He obtained his Bachelor's degree in 2016, Master's degree in 2019, and Ph.D. degree in 2024 from Wuhan University. His main research interests include panorama vision, 3D reconstruction, multi-view stereo, neural radiance fields, 3d gaussian splatting, and so on.

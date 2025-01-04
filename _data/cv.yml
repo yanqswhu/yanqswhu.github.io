@@ -1,21 +1,21 @@
-- title: General Information
+- title: 个人信息 (General Information)
   type: map
   contents:
-    - name: Full Name
-      value: Qingsong Yan
-    - name: Languages
-      value: Chinese, English
+    - name: 姓名 (Full Name)
+      value: 颜青松 (Qingsong Yan)
+    - name: 语言 (Languages)
+      value: 中文, English
 
-- title: Education
+- title: 教育 (Education)
   type: time_table
   contents:
     - title: PhD
-      institution: Wuhan University, Wuhan, China
+      institution: 武汉大学 (Wuhan University)
       year: 201909-202412
       description:
         - Major in Photogrammetry and Remote Sensing.
 
-- title: Academic Interests
+- title: Interests
   type: nested_list
   contents:
     - title: 3D Reconstruction.
