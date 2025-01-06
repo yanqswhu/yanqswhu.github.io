@@ -44,18 +44,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-a-post-with-giscus-comments",
-      
-        title: "a post with giscus comments",
-      
-      description: "an example of a blog post with giscus comments",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2022/giscus-comments/";
-        
-      },
-    },{id: "post-a-post-with-code",
+        },{id: "post-a-post-with-code",
       
         title: "a post with code",
       
