@@ -41,7 +41,7 @@ related_posts: false
     </div>
 </div>
 
-5. 在`github pages`的仓库中，修改`custom domian`，会自动检查domain是否正确配置。大概15分钟就能够使用新的域名访问网站。
+5. 在`Github Pages`的仓库中，修改`Custom Domian`，会自动检查domain是否正确配置。大概15分钟就能够使用新的域名访问网站。
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -65,7 +65,7 @@ related_posts: false
 
 7. 完成上述步骤后，网站基本上也都可以使用了，根据个人需要删除不需要的pages，并修改内容为自己的信息。但是此时，我还添加了[Google Analytics](https://marketingplatform.google.com/about/analytics/)。首先肯定是注册账号，得到measurement ID，然后在`_config.yml`中修改以下两行代码。
 
-```
+```txt
 google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 
 enable_google_analytics: true # enables google analytics
@@ -73,7 +73,7 @@ enable_google_analytics: true # enables google analytics
 
 8. 然后，我还稍微调整了`scripts.liquid`中的代码，改成了以下才成功获取了浏览数据。
 
-```
+```javascript
 {% if site.enable_google_analytics %}
   <!-- Analytics -->
   <!-- Global site tag (gtag.js) - Google Analytics -->
