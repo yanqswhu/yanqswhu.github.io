@@ -15,20 +15,26 @@ related_posts: false
 
 后文中，我简要介绍一下整个过程：
 
-1. 参考[ai-folio INSTALL](https://github.com/alshedivat/al-folio/blob/main/INSTALL.md#recommended-approach)的流程，fork仓库和修改名称。值得注意的事情是，main分支中的是源代码，gh-pages分支才是最终实际网页的代码。
+1.参考[ai-folio INSTALL](https://github.com/alshedivat/al-folio/blob/main/INSTALL.md#recommended-approach)的流程，fork仓库和修改名称。值得注意的事情是，main分支中的是源代码，gh-pages分支才是最终实际网页的代码。
 
-2. 部署完成以后，即可通过`username.github.io`进行访问。但是此时不仅无法使用CDN加速，域名也不是很好看。因此可以进一步购买域名。
+2.部署完成以后，即可通过`username.github.io`进行访问。但是此时不仅无法使用CDN加速，域名也不是很好看。因此可以进一步购买域名。
 
-3. 打开[Namesilo](https://www.namesilo.com/)，选择合适的域名进行购买（支持支付宝和微信付款），其中`Ren:`后的价格为续租价格。在Namesilo上，仅能一年一年进行域名购买。需要提醒的是，如果从国内服务商购买域名，则备案后才能进行浏览访问。
+3.打开[Namesilo](https://www.namesilo.com/)，选择合适的域名进行购买（支持支付宝和微信付款），其中`Ren:`后的价格为续租价格。在Namesilo上，仅能一年一年进行域名购买。需要提醒的是，如果从国内服务商购买域名，则备案后才能进行浏览访问。
 
-4. 购买域名后，在`Domain Manger`中将域名与`Github Pages`绑定。删除已有的`Existing Resource Records`，直接使用Github模板即可。
+4.购买域名后，在`Domain Manger`中将域名与`Github Pages`绑定。删除已有的`Existing Resource Records`，直接使用Github模板即可。
 
-5. 在`Github Pages`的仓库中，修改`Custom Domian`，会自动检查domain是否正确配置。大概15分钟就能够使用新的域名访问网站。
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2025-01-06_domainmanager.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+5.在`Github Pages`的仓库中，修改`Custom Domian`，会自动检查domain是否正确配置。大概15分钟就能够使用新的域名访问网站。
 
 
-6. 注册[Cloudflare](https://www.cloudflare.com/)，使用免费策略进行托管，并将其提供的DNS服务器代码拷贝到[Namesilo](https://www.namesilo.com/)，删除原有的DNS服务器。大概一天后，SSL证书就部署成功了。
+6.注册[Cloudflare](https://www.cloudflare.com/)，使用免费策略进行托管，并将其提供的DNS服务器代码拷贝到[Namesilo](https://www.namesilo.com/)，删除原有的DNS服务器。大概一天后，SSL证书就部署成功了。
 
-7. 完成上述步骤后，网站基本上也都可以使用了，根据个人需要删除不需要的pages，并修改内容为自己的信息。但是此时，我还添加了[Google Analytics](https://marketingplatform.google.com/about/analytics/)。首先肯定是注册账号，得到measurement ID，然后在`_config.yml`中修改以下两行代码。
+7.完成上述步骤后，网站基本上也都可以使用了，根据个人需要删除不需要的pages，并修改内容为自己的信息。但是此时，我还添加了[Google Analytics](https://marketingplatform.google.com/about/analytics/)。首先肯定是注册账号，得到measurement ID，然后在`_config.yml`中修改以下两行代码。
 
 ```txt
 google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
@@ -36,7 +42,7 @@ google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 enable_google_analytics: true # enables google analytics
 ```
 
-8. 然后，我还稍微调整了`scripts.liquid`中的代码，改成了以下才成功获取了浏览数据。
+8.然后，我还稍微调整了`scripts.liquid`中的代码，改成了以下才成功获取了浏览数据。
 
 ```javascript
 {% if site.enable_google_analytics %}
