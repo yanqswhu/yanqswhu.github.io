@@ -29,10 +29,39 @@ related_posts: false
     </div>
 </div>
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2025-01-06_domainmanagerdns.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2025-01-06_domainmanagergithub.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 5.在`Github Pages`的仓库中，修改`Custom Domian`，会自动检查domain是否正确配置。大概15分钟就能够使用新的域名访问网站。
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2025-01-06_githubpage.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 6.注册[Cloudflare](https://www.cloudflare.com/)，使用免费策略进行托管，并将其提供的DNS服务器代码拷贝到[Namesilo](https://www.namesilo.com/)，删除原有的DNS服务器。大概一天后，SSL证书就部署成功了。
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2025-01-06_domainmanagerdnsserver.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2025-01-06_domainmanagerdnsservercloudflare.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 7.完成上述步骤后，网站基本上也都可以使用了，根据个人需要删除不需要的pages，并修改内容为自己的信息。但是此时，我还添加了[Google Analytics](https://marketingplatform.google.com/about/analytics/)。首先肯定是注册账号，得到measurement ID，然后在`_config.yml`中修改以下两行代码。
 
@@ -59,7 +88,13 @@ enable_google_analytics: true # enables google analytics
 {% endif %}
 ```
 
-9. 完成7和8以后，即可在[Google Analytics](https://marketingplatform.google.com/about/analytics/)中查阅实时网页浏览记录。
+9.完成7和8以后，即可在[Google Analytics](https://marketingplatform.google.com/about/analytics/)中查阅实时网页浏览记录。
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2025-01-06_googleanalytics.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 
 以上就是我构建个人网站的整个流程，也踩了一点坑，但是整体上还是比较简单的。很多东西在网上搜一下都能找到，我主要强调了我个人认为容易忽略的地方。
