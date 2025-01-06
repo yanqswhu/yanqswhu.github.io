@@ -55,17 +55,6 @@ ninja.data = [{
           window.location.href = "/blog/2025/buildthissite/";
         
       },
-    },{id: "post-a-post-with-code",
-      
-        title: "a post with code",
-      
-      description: "an example of a blog post with some code",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2015/code/";
-        
-      },
     },{id: "news-我在武汉大学获得了博士学位-i-received-my-ph-d-degree-from-wuhan-university",
           title: '我在武汉大学获得了博士学位。I received my Ph.D. Degree from Wuhan University.',
           description: "",
