@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-a-post-with-code",
+        },{id: "post-github-pages建站经历",
+      
+        title: "Github Pages建站经历",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/buildthissite/";
+        
+      },
+    },{id: "post-a-post-with-code",
       
         title: "a post with code",
       
