@@ -58,6 +58,9 @@ ninja.data = [{
     },{id: "news-我在武汉大学获得了博士学位-i-received-my-ph-d-degree-from-wuhan-university",
           title: '我在武汉大学获得了博士学位。I received my Ph.D. Degree from Wuhan University.',
           description: "",
+          section: "News",},{id: "news-我加入了xgrids-作为一个三维重建工程师-i-joined-xgrids-as-a-3d-reconstruction-engineer",
+          title: '我加入了XGRIDS,作为一个三维重建工程师。I joined XGRIDS as a 3D Reconstruction Engineer.',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
