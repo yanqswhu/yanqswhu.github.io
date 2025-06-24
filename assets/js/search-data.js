@@ -61,6 +61,9 @@ ninja.data = [{
           section: "News",},{id: "news-我加入了xgrids-作为一个三维重建工程师-i-joined-xgrids-as-a-3d-reconstruction-engineer",
           title: '我加入了XGRIDS,作为一个三维重建工程师。I joined XGRIDS as a 3D Reconstruction Engineer.',
           description: "",
+          section: "News",},{id: "news-两篇工作-ra-nerf和large-3dgs-recon被iros-2025接收-two-papers-ra-nerf-and-large-3dgs-recon-are-accepted-by-iros-2025",
+          title: '两篇工作，RA-NeRF和Large-3DGS-Recon被IROS 2025接收。Two papers, RA-NeRF and Large-3DGS-Recon, are accepted by IROS 2025.',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
