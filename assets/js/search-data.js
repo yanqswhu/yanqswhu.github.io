@@ -64,6 +64,12 @@ ninja.data = [{
           section: "News",},{id: "news-两篇工作-ra-nerf和large-3dgs-recon被iros-2025接收-two-papers-ra-nerf-and-large-3dgs-recon-are-accepted-by-iros-2025",
           title: '两篇工作，RA-NeRF和Large-3DGS-Recon被IROS 2025接收。Two papers, RA-NeRF and Large-3DGS-Recon, are accepted by IROS 2025.',
           description: "",
+          section: "News",},{id: "news-meshsegnet发表在gsis-meshsegnet-was-published-in-gsis",
+          title: 'MeshSegNet发表在GSIS。MeshSegNet was published in GSIS.',
+          description: "",
+          section: "News",},{id: "news-xgrids发布了portalcam-能够稳定重建大规模的高质量3dgs-满足更多人的需求-xgrids-has-launched-portalcam-which-can-robustly-reconstruct-large-scale-high-quality-3dgs-to-meet-the-needs-of-a-broader-audience",
+          title: 'XGRIDS发布了PortalCam，能够稳定重建大规模的高质量3DGS，满足更多人的需求。XGRIDS has launched PortalCam, which can robustly reconstruct large-scale, high-quality 3DGS to meet...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
