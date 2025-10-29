@@ -23,18 +23,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-github-pages建站经历",
-      
-        title: "Github Pages建站经历",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2025/buildthissite/";
-        
-      },
-    },{id: "news-我在武汉大学获得了博士学位-i-received-my-ph-d-degree-from-wuhan-university",
+        },{id: "news-我在武汉大学获得了博士学位-i-received-my-ph-d-degree-from-wuhan-university",
           title: '我在武汉大学获得了博士学位。I received my Ph.D. Degree from Wuhan University.',
           description: "",
           section: "News",},{id: "news-我加入了xgrids-作为一个三维重建工程师-i-joined-xgrids-as-a-3d-reconstruction-engineer",
