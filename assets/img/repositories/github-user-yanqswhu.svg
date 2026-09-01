@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-labelledby="title desc">
+  <title id="title">yanqswhu GitHub profile</title>
+  <desc id="desc">Static GitHub profile snapshot with 266 public repositories, 115 followers, and 428 following.</desc>
+  <rect width="495" height="195" rx="8" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="28" y="42" fill="#0969da" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-weight="600">GitHub profile</text>
+  <text x="28" y="78" fill="#24292f" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="28" font-weight="700">yanqswhu</text>
+  <line x1="28" y1="100" x2="467" y2="100" stroke="#d8dee4"/>
+  <text x="28" y="132" fill="#57606a" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14">Public repositories</text>
+  <text x="28" y="163" fill="#24292f" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="25" font-weight="700">266</text>
+  <text x="192" y="132" fill="#57606a" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14">Followers</text>
+  <text x="192" y="163" fill="#24292f" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="25" font-weight="700">115</text>
+  <text x="328" y="132" fill="#57606a" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14">Following</text>
+  <text x="328" y="163" fill="#24292f" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="25" font-weight="700">428</text>
+</svg>
