@@ -1,4 +1,4 @@
-{% assign repository_slug = include.repository | replace: '/', '-' | downcase %}
+{% assign repository_slug = include.repository | replace: '/', '-' | replace: '_', '-' | downcase %}
 
 <div class="repo p-2 text-center">
   <a href="https://github.com/{{ include.repository }}">
