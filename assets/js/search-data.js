@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-news",
+          title: "news",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
         },{id: "nav-repositories",
           title: "repositories",
           description: "",
@@ -37,6 +44,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-xgrids发布了portalcam-能够稳定重建大规模的高质量3dgs-满足更多人的需求-xgrids-has-launched-portalcam-which-can-robustly-reconstruct-large-scale-high-quality-3dgs-to-meet-the-needs-of-a-broader-audience",
           title: 'XGRIDS发布了PortalCam，能够稳定重建大规模的高质量3DGS，满足更多人的需求。XGRIDS has launched PortalCam, which can robustly reconstruct large-scale, high-quality 3DGS to meet...',
+          description: "",
+          section: "News",},{id: "news-xgrids发布了lcc-scan-能够在用户手机上完成空间生成-开启了3d的新时代-xgrids-has-launched-lcc-scan-enabling-users-to-create-spatial-models-directly-on-their-smartphones-and-ushering-in-a-new-era-of-3d",
+          title: 'XGRIDS发布了LCC Scan， 能够在用户手机上完成空间生成，开启了3D的新时代。XGRIDS has launched LCC Scan, enabling users to create spatial models...',
           description: "",
           section: "News",},{
         id: 'social-email',
