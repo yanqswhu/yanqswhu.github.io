@@ -16,10 +16,7 @@
         {% endif %}
         {% for item in news limit: news_limit %}
           <tr>
-            <th scope="row" style="width: 20%">
-              <span data-i18n="zh">{{ item.date | date: '%Y年%m月%d日' }}</span>
-              <span data-i18n="en">{{ item.date | date: '%b %d, %Y' }}</span>
-            </th>
+            <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
             <td>
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
@@ -32,6 +29,6 @@
       </table>
     </div>
   {% else %}
-    <p><span data-i18n="zh">暂无新闻。</span><span data-i18n="en">No news so far...</span></p>
+    <p>No news so far...</p>
   {% endif %}
 </div>
