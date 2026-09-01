@@ -43,13 +43,18 @@
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           {% for page in site.pages %}
-            {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
+            {% if page.permalink == '/' %}
+              {% assign about_title = page.title %}
+              {% assign about_title_zh = page.title_zh | default: page.title %}
+              {% assign about_title_en = page.title_en | default: page.title %}
+            {% endif %}
           {% endfor %}
 
           <!-- About -->
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
-              {{- about_title }}
+              <span data-i18n="zh">{{- about_title_zh -}}</span>
+              <span data-i18n="en">{{- about_title_en -}}</span>
               {% if page.permalink == '/' %}
                 <span class="sr-only">(current)</span>
               {% endif %}
@@ -108,7 +113,8 @@
                     {%- assign url = p.url -%}
                   {%- endif %}
                   <a class="nav-link" href="{{ url | relative_url }}">
-                    {{- p.title }}
+                    <span data-i18n="zh">{{- p.title_zh | default: p.title -}}</span>
+                    <span data-i18n="en">{{- p.title_en | default: p.title -}}</span>
                     {% if page.url contains p.url %}
                       <span class="sr-only">(current)</span>
                     {% endif %}
@@ -125,6 +131,9 @@
               </button>
             </li>
           {% endif %}
+          <li class="nav-item">
+            <button id="language-toggle" type="button" aria-label="Switch to English" title="Switch to English">EN</button>
+          </li>
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">

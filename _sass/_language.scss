@@ -1,0 +1,18 @@
+html[data-lang="zh"] [data-i18n="en"],
+html[data-lang="en"] [data-i18n="zh"],
+html:not([data-lang]) [data-i18n="en"] {
+  display: none !important;
+}
+
+#language-toggle {
+  padding: 0;
+  border: 0;
+  background-color: inherit;
+  color: var(--global-text-color);
+  font-size: 0.9rem;
+  line-height: 1;
+
+  &:hover {
+    color: var(--global-hover-color);
+  }
+}

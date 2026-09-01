@@ -270,6 +270,8 @@
   </script>
 {% endif %}
 
+<script defer src="{{ '/assets/js/language.js' | relative_url | bust_file_cache }}"></script>
+
 {% if site.search_enabled %}
   <!-- Search -->
   <script type="module" src="{{ '/assets/js/search/ninja-keys.min.js' | relative_url | bust_file_cache }}"></script>

@@ -2,6 +2,8 @@
 layout: page
 permalink: /repositories/
 title: repositories
+title_zh: 代码仓库
+title_en: repositories
 description: 
 nav: true
 nav_order: 4
@@ -9,7 +11,7 @@ nav_order: 4
 
 {% if site.data.repositories.github_users %}
 
-## GitHub users
+## <span data-i18n="zh">GitHub 用户</span><span data-i18n="en">GitHub users</span>
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}
@@ -37,7 +39,7 @@ nav_order: 4
 
 {% if site.data.repositories.github_repos %}
 
-## GitHub Repositories
+## <span data-i18n="zh">GitHub 代码仓库</span><span data-i18n="en">GitHub Repositories</span>
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.github_repos %}
