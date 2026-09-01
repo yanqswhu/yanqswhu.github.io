@@ -1,18 +1,22 @@
-html[data-lang="zh"] [data-i18n="en"],
-html[data-lang="en"] [data-i18n="zh"],
-html:not([data-lang]) [data-i18n="en"] {
-  display: none !important;
-}
-
 #language-toggle {
-  padding: 0;
-  border: 0;
-  background-color: inherit;
+  appearance: none;
+  margin: 0.25rem 0.25rem 0.25rem 0.5rem;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  background: transparent;
   color: var(--global-text-color);
-  font-size: 0.9rem;
-  line-height: 1;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.2;
 
   &:hover {
+    border-color: var(--global-hover-color);
     color: var(--global-hover-color);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--global-hover-color);
+    outline-offset: 2px;
   }
 }

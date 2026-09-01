@@ -6,6 +6,25 @@
     return supportedLanguages.has(language) ? language : 'zh';
   }
 
+  function updateLocalizedContent(activeLanguage) {
+    const hiddenLanguage = activeLanguage === 'zh' ? 'en' : 'zh';
+    let visibilityStyle = document.getElementById('language-visibility');
+
+    if (!visibilityStyle) {
+      visibilityStyle = document.createElement('style');
+      visibilityStyle.id = 'language-visibility';
+      document.head.appendChild(visibilityStyle);
+    }
+
+    visibilityStyle.textContent = `[data-i18n="${hiddenLanguage}"] { display: none !important; }`;
+
+    document.querySelectorAll('[data-i18n]').forEach((element) => {
+      const isVisible = element.dataset.i18n === activeLanguage;
+      element.hidden = !isVisible;
+      element.setAttribute('aria-hidden', String(!isVisible));
+    });
+  }
+
   function applyLanguage(language, persist = false) {
     const activeLanguage = normalizeLanguage(language);
     const root = document.documentElement;
@@ -13,6 +32,7 @@
 
     root.dataset.lang = activeLanguage;
     root.lang = activeLanguage === 'zh' ? 'zh-CN' : 'en';
+    updateLocalizedContent(activeLanguage);
 
     if (toggle) {
       const switchesToEnglish = activeLanguage === 'zh';
