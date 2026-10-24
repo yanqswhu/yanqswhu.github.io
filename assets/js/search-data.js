@@ -9,19 +9,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
-          title: "publications",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
-          },
-        },{id: "nav-news",
+  },{id: "nav-news",
           title: "news",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/news/";
+          },
+        },{id: "nav-publications",
+          title: "publications",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
           },
         },{id: "news-began-my-b-eng-studies-in-geomatics-engineering-at-the-school-of-geodesy-and-geomatics-wuhan-university",
           title: 'Began my B.Eng. studies in Geomatics Engineering at the School of Geodesy and...',
@@ -97,6 +97,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-passed-the-project-management-professional-pmp-certification-exam-this-milestone-marks-a-new-step-in-my-professional-development-complementing-my-background-in-3d-reconstruction-and-photogrammetry",
           title: 'Passed the Project Management Professional (PMP) certification exam. This milestone marks a new...',
+          description: "",
+          section: "News",},{id: "news-i-was-invited-to-deliver-a-talk-at-uwa-summit-titled-from-gaussian-splatting-to-spatial-intelligence-scaling-3d-spatial-data-across-real-world-workflows",
+          title: 'I was invited to deliver a talk at UWA SUMMIT, titled From Gaussian...',
           description: "",
           section: "News",},{
         id: 'social-email',
